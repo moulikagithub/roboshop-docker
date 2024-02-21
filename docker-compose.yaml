@@ -36,6 +36,8 @@ services:
     depends_on:
     - redis
     - catalogue
+  mysql:
+    image: mysql:v1
 
 
   
