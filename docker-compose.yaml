@@ -25,7 +25,7 @@ services:
     - catalogue
 
   redis:  
-    image: redis:v1
+    image: redis
   user:
     image: user:v1
     depends_on:
